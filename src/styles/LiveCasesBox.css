@@ -1,0 +1,16 @@
+.liveCaseBox{
+    height: 1800px !important;
+}
+
+.liveCaseBox__title{
+    margin: 20px 0 !important;
+    text-transform: capitalize;
+}
+
+.liveCaseBox .MuiCardContent-root{
+    height: 856px;
+}
+
+.chartjs-render-monitor{
+    height: 330px;
+}

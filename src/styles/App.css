@@ -1,0 +1,27 @@
+.app{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app__stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__left{
+    flex: 0.8;
+    margin: 20px;
+}
+.app .app__right{
+    flex: 0.2;
+}
+
+@media (max-width: 990px){
+    .app {
+        flex-direction: column;
+    }
+    .app__left{
+        margin: 0;
+    }
+}
